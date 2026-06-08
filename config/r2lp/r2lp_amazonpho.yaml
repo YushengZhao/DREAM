@@ -1,0 +1,36 @@
+analysis:
+  flag: false
+  project: gnn-with-label-noise
+  save_graph: false
+dataset:
+  sparse: true
+model:
+  act: F.relu
+  alpha: 0.0
+  alpha1: 0.7999909364785589
+  alpha2: 0.5257222667286698
+  alpha3: 0.27687644886841933
+  beta: 0.1
+  delta: 0.0
+  dropout: 0.8975519994568789
+  gamma: 0.5092217409736868
+  input_layer: false
+  method: r2lp
+  n_hidden: 128
+  n_layer: 4
+  norm_func_id: 1
+  norm_info: null
+  norm_layers: 2
+  orders: 1
+  orders_func_id: 2
+  output_layer: false
+  pre_select: 0.2
+training:
+  criterion: metric
+  lr: 0.01
+  n_epochs: 200
+  n_epochs_lp: 10
+  patience: null
+  pre_select: 0.5
+  pre_unknown: 0.5
+  weight_decay: 1e-07

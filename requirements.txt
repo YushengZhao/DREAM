@@ -1,0 +1,11 @@
+numpy
+pandas
+scikit-learn
+scipy
+matplotlib
+seaborn
+nni
+ruamel.yaml
+xlsxwriter
+torch>=2.5.1
+torch-geometric>=2.6.0
